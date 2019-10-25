@@ -143,6 +143,15 @@ jQuery(function ($) {
 		});
 	}
 	google.maps.event.addDomListener(window, 'load', initialize_map);
+	$('.faqTitle').click(function () {
+        $('.faqTitle').not(this).find('i:first').removeClass(' fa fa-chevron-down').addClass('fa fa-chevron-up ');
+        $(this).find('i:first').toggleClass('fa fa-chevron-down fa fa-chevron-up');
+    })
+
+    $('.faqTitle').click(function () {
+        $(this).parent().find('.children').slideToggle(400);
+    });
+    $(".faqTitle").on("click", "i", function(e) { e.preventDefault() });
 
 
 });
