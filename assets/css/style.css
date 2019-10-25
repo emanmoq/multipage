@@ -681,7 +681,7 @@ margin:0 7px;
     display: inline-block;
     margin:0 10px;
     border:1px solid white;
-    font-size:18px;
+    font-size:14px;
     padding:10px;
     border-radius: 5px;
 }
@@ -705,7 +705,7 @@ text-decoration: none;
     color:#106b8f;
 }
 #FAQ{
-    padding:100px 0;
+    padding:200px 0;
 }
 .parent{
     border-bottom: 1px solid #ccc;
@@ -744,6 +744,53 @@ text-decoration: none;
 .child a{
 color:white;
 }
+#login h4 {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+  }
+  #login .close {
+    color: #fff;
+    transform: scale(1.2)
+  }
+  .modal-content {
+    font-weight: bold;
+    background: #45aed6
+  }
+  #login  form{
+      padding:20px;
+  }
+  #login .form-control {
+    margin: 1em 0;
+  }
+  #login .form-control:hover, .form-control:focus {
+    box-shadow: none;  
+    border-color: #fff;
+  }
+  #login .username,   #login .password {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+ 
+    padding-left: 0;
+    font-weight: normal;
+    background: transparent;  
+  }
+  #login .form-control::-webkit-input-placeholder {
+    color: #eee;  
+  }
+  #login .form-control:focus::-webkit-input-placeholder {
+    font-weight: bold;
+    color: #fff;
+  }
+
+  #login .login:hover {
+    background: #45aed6;
+    color: #fff;
+  }
+  #login .btn.login{
+    text-align: center;;
+  }
 
 @media (max-width:767px){
     .counterNum{
