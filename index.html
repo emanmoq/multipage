@@ -35,8 +35,8 @@
                   </div>
                   <div class="col-sm-6">
                       <div class="lognSec">
-                          <h3><a href="login">Login </a></h3>
-                          <h3><a href="login">Sign Up </a></h3>
+                          <h3 data-target="#login" data-toggle="modal"><a href="#">Login </a></h3>
+                          <h3 data-target="#SignUp" data-toggle="modal"><a href="#">SignUp </a></h3>
                       </div>
                   </div>
               </div>
@@ -978,16 +978,7 @@
       </div>
     </div>
   </section>
-  <section class="contactHeader">
-    <div class="container">
-      <div class="heading">
-        <h2 class="sectionTitle text-center wow fadeInDown animated">Get In Touch</h2>
-        <p class="text-center wow fadeInDown animated">Lorem
-          ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna
-          aliqua. Ut enim ad minim veniam</p>
-      </div>
-    </div>
-  </section>
+
   <section id="contact">
     <div id="map" style="height: 650px;" data-latitude='39.305' data-longitude="-76.617" class="wow fadeIn animated"
       data-latitude="52.365629" data-longitude="4.871331" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
@@ -1049,6 +1040,38 @@
           </div>
       </div>
   </footer>
+  <div id="login" class=" login modal fade" role="dialog">
+      <div class="modal-dialog">
+  
+          <div class="modal-content">
+              <div class="modal-body">
+                  <button data-dismiss="modal" class="close">&times;</button>
+                  <h4>Login</h4>
+                  <form>
+                      <input type="text" name="username" class="username form-control" placeholder="Username" />
+                      <input type="password" name="password" class="password form-control" placeholder="password" />
+                      <a class="btn login" type="submit"> Login</a>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div id="SignUp" class=" login modal fade" role="dialog">
+      <div class="modal-dialog">
+  
+          <div class="modal-content">
+              <div class="modal-body">
+                  <button data-dismiss="modal" class="close">&times;</button>
+                  <h4>Sign Up</h4>
+                  <form>
+                      <input type="text" name="username" class="username form-control" placeholder="Username" />
+                      <input type="password" name="password" class="password form-control" placeholder="password" />
+                      <a class="btn login" type="submit"> Sign Up</a>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
   <script type="text/javascript" src="assets/js/jquery.js"></script>
   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/wow.min.js"></script>

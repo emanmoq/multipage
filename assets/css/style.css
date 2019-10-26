@@ -19,6 +19,7 @@ img{
             border-radius: 0;
             margin-bottom: 0;
             position: relative;
+            justify-content: center;
 }
 
 #mainMenu .navbar-toggle {
@@ -705,7 +706,7 @@ text-decoration: none;
     color:#106b8f;
 }
 #FAQ{
-    padding:200px 0;
+    padding:100px 0;
 }
 .parent{
     border-bottom: 1px solid #ccc;
@@ -744,12 +745,12 @@ text-decoration: none;
 .child a{
 color:white;
 }
-#login h4 {
+.login h4 {
     font-weight: bold;
     color: #fff;
     text-align: center;
   }
-  #login .close {
+  .login .close {
     color: #fff;
     transform: scale(1.2)
   }
@@ -757,17 +758,19 @@ color:white;
     font-weight: bold;
     background: #45aed6
   }
-  #login  form{
+  .login{
+      top:10% !important;
+  }
+  .login  form{
       padding:20px;
+      text-align: center;
   }
-  #login .form-control {
-    margin: 1em 0;
+  .login .form-control {
+    margin: 20px 0;
+
   }
-  #login .form-control:hover, .form-control:focus {
-    box-shadow: none;  
-    border-color: #fff;
-  }
-  #login .username,   #login .password {
+
+  .login .username,   .login .password {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: none;
@@ -776,22 +779,57 @@ color:white;
     font-weight: normal;
     background: transparent;  
   }
-  #login .form-control::-webkit-input-placeholder {
+  .login .form-control::-webkit-input-placeholder {
     color: #eee;  
+    padding:10px;
   }
-  #login .form-control:focus::-webkit-input-placeholder {
+  .login .form-control:focus::-webkit-input-placeholder {
     font-weight: bold;
     color: #fff;
   }
 
-  #login .login:hover {
+  .login .login:hover {
     background: #45aed6;
     color: #fff;
   }
-  #login .btn.login{
-    text-align: center;;
+  .login .btn.login{
+    text-align: center;
+    margin-top:20px;
+    border:1px solid #fff;
+    border-radius: 5px;;
+    color:white;
   }
+  .login .btn.login:hover{
+      background-color:white;
+      color:#45aed6;
+  }
+  .login .modal-dialog {
+      width:30%;
+  }
+.FAQHeader{
+    margin-bottom:70px;
+}
+.FAQHeader i{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+   font-size:12px;
+}
+.FAQHeader .form-control::placeholder{
+padding:20px;
+}
+.FAQHeader form{
+    position: relative;
 
+}
+.FAQHeader h2{
+    font-size:18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.faqNav {
+    padding:0 20%;
+}
 @media (max-width:767px){
     .counterNum{
         width:100px;
