@@ -777,6 +777,31 @@ color:black;
 font-size:12px;
 
 }
+.loginIcons.footerIcons{
+    float:none;
+    margin-top:20px;
+}
+.loginIcons.footerIcons li.twitter{
+    background-color:  #00acee;
+}
+.loginIcons.footerIcons li.googlePlus{
+    background-color: #CC3333;
+}
+.loginIcons.footerIcons li{
+    width:30px;
+    height:30px;
+    border-radius: 5px;
+    background-color: #3b5998 ;
+    text-align: center;
+}
+.loginIcons.footerIcons li i{
+    font-size:12px;
+    line-height: 30px;
+}
+.loginIcons.footerIcons li a{
+    color:white;
+
+}
 #remember{
     margin-left:20px;
 }
