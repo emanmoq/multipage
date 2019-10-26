@@ -762,6 +762,21 @@ color:black;
 .publicbtn.login {
     padding:10px 20px;
 }
+.lostPassword{
+    color:#ccc;
+    font-size:14px;
+}
+.lostPassword:hover{
+    color:#45aed6;
+    text-decoration:none;
+}
+.form-label{
+    font-size:14px;
+}
+.loginForm .form-control::placeholder{
+font-size:12px;
+
+}
 #remember{
     margin-left:20px;
 }
