@@ -828,6 +828,48 @@ padding:20px;
 .faqNav {
     padding:0 20%;
 }
+.singleComment{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.singleComment:last-child{
+border-bottom:0;
+}
+.commentImg{
+    width:20%;
+    margin-right:15px;
+}
+    
+.BlogComments{
+    margin-top:20px;
+    padding:20px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+.BlogComments p{
+    font-size: 14px;
+    line-height: 1;
+}
+.commentDate{
+    font-size:12px;
+    color:#ccc;
+    margin-top:10px;
+}
+.commentDesc {
+    width:70%;
+}
+.clearfix{
+    clear:both;
+}
+.BlogsPage .blogBox{
+margin-bottom:20px;
+}
+.blogsCat{
+    border:1px solid #ccc;
+    padding:10px;
+    margin-top:20px;
+    border-radius: 5px;
+}
 @media (max-width:767px){
     .counterNum{
         width:100px;
