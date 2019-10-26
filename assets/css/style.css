@@ -745,65 +745,26 @@ text-decoration: none;
 .child a{
 color:black;
 }
-.login h4 {
-    font-weight: bold;
-    color:#45aed6;
-    text-align: center;
-  }
-  .login .close {
-    color: #999;
-    transform: scale(1.2)
-  }
-  .modal-content {
-    font-weight: bold;
-    background: white
-  }
-  .login{
-      top:10% !important;
-  }
-  .login  form{
-      padding:20px;
-      text-align: center;
-  }
-  .login .form-control {
-    margin: 20px 0;
-    border:1px solid black;
 
-  }
-
-  .login .username,   .login .password {
-    border: 1px solid #ccc;
+#login{
+    padding:100px 0;
+}
+.loginSignBox{
+    border:1px solid #ccc;
     border-radius: 5px;
-    box-shadow: none;
- 
-    padding-left: 0;
-    font-weight: normal;
-    background: transparent;  
-  }
-  .login .form-control::-webkit-input-placeholder {
-    color: black;  
-    padding:10px;
-  }
-  .login .form-control:focus::-webkit-input-placeholder {
-    font-weight: bold;
-    color: #fff;
-  }
-
-  .login .login:hover {
-    background: #45aed6;
-    color: #fff;
-  }
-  .login a{
-      color:white;
-  }
-
-  .login .btn.login:hover{
-      background-color:white;
-      color:#45aed6;
-  }
-  .login .modal-dialog {
-      width:30%;
-  }
+    padding:20px;
+}
+.loginHeader{
+    font-size:16px;
+    margin-bottom: 20px;
+    color:#45aed6;
+}
+.publicbtn.login {
+    padding:10px 20px;
+}
+#remember{
+    margin-left:20px;
+}
 .FAQHeader{
     margin-bottom:70px;
 }
@@ -895,6 +856,15 @@ margin-bottom:20px;
     border-bottom: 3px solid #ececec;
     margin-bottom: 6px;
     padding-bottom: 8px;
+}
+.loginTitle{
+    background-image:url(../images/23.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+padding:50px ;
+opacity: .8;
+font-size:40px;
+color:white;
 }
 @media (max-width:767px){
     .counterNum{
