@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 3px;
     }
     .publicbtn:hover {
-        background: #45aed6 !important;}
+        background: #3e839d !important;}
         .heading {
             margin-bottom: 50px;
         }
@@ -675,7 +675,7 @@ margin:0 7px;
     width:20% !important
 }
 #footer a:hover{
-    color: #45aed6;
+    color: #2f4249;
 }
 .socialHeader{
     background-color:#45aed6;
@@ -786,6 +786,7 @@ font-size:12px;
 .loginIcons.footerIcons{
     float:none;
     margin-top:20px;
+    color:white;
 }
 .loginIcons.footerIcons li.twitter{
     background-color:  #00acee;
@@ -805,7 +806,7 @@ font-size:12px;
     line-height: 30px;
 }
 .loginIcons.footerIcons li a{
-    color:white;
+    color:white !important;
 
     color: #45aed6;
 }
@@ -905,7 +906,7 @@ margin-bottom:20px;
     padding-bottom: 8px;
 }
 .loginTitle{
-    background-image:url(../images/23.jpg);
+    background-image:url(../images/workprocess.jpg);
 background-size:cover;
 background-repeat:no-repeat;
 padding:50px ;
